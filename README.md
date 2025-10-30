@@ -2,6 +2,7 @@
 
 ## Autor
 **Nome:** Tobias Viana Araújo
+
 **Data:** 30/10/2025
 
 ## Parte 1: Montagem Física do Semáforo
@@ -30,6 +31,9 @@ A montagem foi organizada de forma limpa para facilitar a visualização e ident
 | Verde | 8 | 330 Ω → GND |
 
 ### Imagens da Montagem
+
+Link do drive com video: https://drive.google.com/drive/folders/1onWjsSYbnZ_qoRmU0p2ZIyy0AzM7makj?usp=sharing
+
 ![Montagem do Semáforo](./imagens/semaforo.jpg)
 
 ![Protoboard com LEDs](./imagens/protoboard.jpg)
@@ -47,7 +51,7 @@ O código segue a seguinte temporização:
 
 Além disso, foi implementado um botão liga/desliga, que interrompe o funcionamento do semáforo enquanto estiver desligado.
 
-🧠 Lógica de Funcionamento
+**Lógica de Funcionamento**
 
 Ao pressionar o botão, o semáforo é ativado.
 
@@ -57,7 +61,7 @@ O LED amarelo pisca três vezes (a cada 300 ms) antes de passar para o vermelho.
 
 Se o botão for pressionado novamente, o sistema desliga e todos os LEDs são apagados.
 
-🧾 Código-fonte
+**Código-fonte**
 
 O código completo está disponível neste repositório no arquivo:
 `arduino.ino`
@@ -98,5 +102,4 @@ A montagem física está correta. O código está bem organizado, e você foi al
 ## Conclusão
 
 O projeto demonstra o funcionamento prático de um semáforo eletrônico com controle de tempo e lógica sequencial, utilizando ponteiros para manipular os LEDs de forma mais flexível.
-A adição do botão liga/desliga e do piscar no amarelo tornam o protótipo mais interativo e próximo do comportamento real.
----
+A adição do botão liga/desliga e do piscar no amarelo tornam o protótipo mais interativo e próximo do comportamento real de um semáforo urbano.
